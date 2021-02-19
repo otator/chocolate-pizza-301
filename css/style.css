@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body{
+  width: 100%;
+  margin: auto;
+}
+main{
+  width: 100%;
+}
+nav{
+  position: absolute;
+  right: 10%;
+  top: 50px;
+  transform: translateY(-50%);
+}
+#logo-id {
+  margin: 15px 15px;
+}
+
+#all-capital{
+  text-transform:uppercase;
+  left: 10px;
+}
+header div{
+width: 50%;
+position: absolute;
+top:0;
+left: 70px;
+transform: translateY(-10%);
+}
+header h1{
+  font-family: 'Yellowtail', cursive;
+}
+header p{
+  position :absolute;
+  top:50px;
+  font-family: cursive;
+}
+header{
+  margin-bottom:50px;
+}
+#main-image{
+  position: relative;
+  width: 100%;
+}
+main div{
+  padding:10px;
+}
+main div p{
+  margin-bottom: 10px;;
+}
+.main-content p{
+  display: block;
+  text-indent: 50px;
+  text-align: justify;
+  width: 98%;
+  margin-top: 10px;
+}
+
+.recipe{
+  background-image: url("../assets/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+.first-footer img{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.first-footer div{
+  width: 50%;
+  position: absolute;
+  left: 90px;
+  transform: translateY(-100%);
+}
+.first-footer button{
+  position: absolute;
+  right: 100px;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(151, 0, 0);
+  transform: translateY(100%);
+  color: white;
+}
+.second-footer{
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.second-footer p{
+  display: block;
+  text-align: center;
+  padding:10px;
+  margin-top: 10px;
+}
+.second-footer img{
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+
+.second-footer img:before{
+  display: inline-block;
+  content: "";
+  border-top: 24px solid black;
+  width: 20px;
+  margin: 0 20px;
+  transform: translateY(-50);
+}
+hr{
+  margin:0 10px 0 10px;
+}
+
+.list-display{
+  margin-left: 50px;
+  display: grid;
+  font-family: cursive;
+  grid-auto-columns: 1fr 1fr;
+}
+.horizontal-bg{
+  background-image: url("../assets/hr-img.png");
+  margin: 10px;
+}
